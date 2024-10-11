@@ -49,7 +49,8 @@
 ## Problem 1 ##
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
-
+name=input("What is your name?")
+print(f"Your name:{name}{name}")
 
 
 
@@ -59,7 +60,8 @@
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
-
+name=input("What is your name?")
+print(f"!{name}!{name}!")
 
 ## Problem 3 ##
 #Please write a script that: 
@@ -70,13 +72,22 @@
 #   - Last name: Sanders
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
-
+name=input("What is your first name?")
+name2=input ("Whtat is your last name?")
+address=input("What is your adress?")
+city=input("What city and postal code?")
+print (f"First name: {name}")
+print(f"Last name: {name2}")
+print(f"Street adress:{address}")
+print(f"City and postal code:{city}")
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
-
-
+word=input("Give me a word.")
+word2=input("Give me annother word.")
+word3=input("Give me another word.")
+print(f"{word}-{word2}-{word3}")
 ## Problem 5 ##
 #Please write a script that: 
 # - Asks for a name and a year
@@ -88,3 +99,7 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+name=input("Give me an name!")
+year=input("Please tell me a year!")
+
+print(f"{name} was walking the dog in {year}. When they heard a loud sound. Thye saw the eqrthquake come near them!")
